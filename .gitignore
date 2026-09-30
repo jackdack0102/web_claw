@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output
+/dist
+/build
+/.next
+/.nuxt
+/.cache
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Test coverage
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Optional package manager caches
+.npm/
+.pnpm-store/
+.yarn/
+.yarnrc.yml
+
+# Misc
+*.tsbuildinfo
